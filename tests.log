@@ -1,0 +1,23 @@
+============================= test session starts =============================
+platform win32 -- Python 3.11.6, pytest-8.1.1, pluggy-1.4.0 -- C:\Programming\Projects\Univsersity\Group Project\venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Programming\Projects\Univsersity\Group Project
+plugins: anyio-4.2.0, dash-2.14.2
+collecting ... collected 14 items
+
+test_callbacks.py::test_update_company_company_info PASSED               [  7%]
+test_callbacks.py::test_update_company_chat_input_text PASSED            [ 14%]
+test_callbacks.py::test_update_company_rt_stock_info PASSED              [ 21%]
+test_callbacks.py::test_update_company_stock_info PASSED                 [ 28%]
+test_callbacks.py::test_update_plot_and_info_prediction_plot PASSED      [ 35%]
+test_callbacks.py::test_update_plot_and_info_download_link PASSED        [ 42%]
+test_callbacks.py::test_update_plot_and_info_loss_plot PASSED            [ 50%]
+test_callbacks.py::test_update_plot_and_info_historical_volatility_plot PASSED [ 57%]
+test_callbacks.py::test_user_chat_output PASSED                          [ 64%]
+test_callbacks.py::test_update_plot_and_info_model_saving PASSED         [ 71%]
+test_callbacks.py::test_update_plot_and_info_model_loading PASSED        [ 78%]
+test_callbacks.py::test_create_sequences_length PASSED                   [ 85%]
+test_callbacks.py::test_download_graph PASSED                            [ 92%]
+test_callbacks.py::test_generate_response PASSED                         [100%]
+
+============================= 14 passed in 20.65s =============================
